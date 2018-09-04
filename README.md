@@ -12,7 +12,7 @@
     ```
     {
         "require": {
-            "aliyuncs/aliyun-oss-php-sdk-laravel": "~1.2.0"
+            "kechujian/aliyun-oss-sdk-laravel": "~1.0.0"
         }
     }
     ```
@@ -27,7 +27,8 @@
         'id' => 'your id',
         'key' => 'your key',
         'endpoint' => 'your endpoint',
-        'bucket' => 'your bucket'
+        'bucket' => 'your bucket',
+        'iscname' => true or false
     ];
     ```
 
@@ -65,7 +66,8 @@
         'id' => 'your id',
         'key' => 'your key',
         'endpoint' => 'your endpoint',
-        'bucket' => 'your bucket'
+        'bucket' => 'your bucket',
+        'iscname' => true or false
     ];
     ```
 

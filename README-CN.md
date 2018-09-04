@@ -12,7 +12,7 @@
     ```
     {
         "require": {
-            "aliyuncs/aliyun-oss-php-sdk-laravel": "~1.2.0"
+            "kechujian/aliyun-oss-sdk-laravel": "~1.0.0"
         }
     }
     ```
@@ -26,7 +26,8 @@
         'id' => 'your id',
         'key' => 'your key',
         'endpoint' => 'your endpoint',
-        'bucket' => 'your bucket'
+        'bucket' => 'your bucket',
+        'iscname' => true or false
     ];
     ```
 - 修改 config/app.php 注册 Aliyun OSS Service Provider.
@@ -62,7 +63,8 @@
         'id' => 'your id',
         'key' => 'your key',
         'endpoint' => 'your endpoint',
-        'bucket' => 'your bucket'
+        'bucket' => 'your bucket',
+        'iscname' => true or false
     ];
     ```
 - 在bootstrap/app.php 中注册 Aliyun OSS Service Providers
