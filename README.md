@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/aliyun/aliyun-oss-php-sdk-laravel.svg?branch=master)](https://travis-ci.org/aliyun/aliyun-oss-php-sdk-laravel)
 [![Coverage Status](https://coveralls.io/repos/github/aliyun/aliyun-oss-php-sdk-laravel/badge.svg?branch=master)](https://coveralls.io/github/aliyun/aliyun-oss-php-sdk-laravel?branch=master)
 
-## [README of Chinese](https://github.com/aliyun/aliyun-oss-php-sdk-laravel/blob/master/README-CN.md)
+## [README of Chinese](https://github.com/kechujian/aliyun-oss-sdk-laravel/blob/master/README-CN.md)
 
 ## Make a Reference in Your Laravel Project
 - Install the Laravel framework or the Lumen framework.
